@@ -1,0 +1,96 @@
+/*void main(){
+  Set<int> myset = {};
+
+  print(myset);
+}*/
+
+/*void main (){
+  Set<int> myset = {};
+  myset.add(10);
+  myset.add(20);
+  myset.add(30);
+
+  print(myset);
+}*/
+
+/*void main(){
+  Set<int> myset = {10,20,30};
+
+  print("Set before removal: $myset");
+
+  myset.remove(20);
+
+  print("Set after removal: $myset");
+}*/
+
+/*void main(){
+  Set<int> myset = {10,20,30};
+
+  print("set: $myset");
+
+  if(myset.contains(15)){
+    print("The set contains the number 15");
+  }else{
+    print("The set does not contain the number 15");
+  }
+}*/
+
+/*void main(){
+  Set<int> myset = {10,20,30};
+
+  print("First set: $myset");
+
+  Set<int> otherset = {20,30,40};
+
+  print("other set: $otherset");
+}*/
+
+/*void main(){
+  Set<int> myset = {10,20,30};
+  Set<int> otherset = {20,30,40};
+  print ("First set: $myset");
+  print("other set: $otherset");
+  Set<int> unionSet = myset.union(otherset);
+  print("Union of both sets: $unionSet");
+}*/
+
+/*void main(){
+  Set<int> myset = {10,20,30};
+  Set<int> otherset = {20,30,40};
+  print ("First set: $myset");
+  print("other set: $otherset");
+  Set<int> intersectionSet = myset.intersection(otherset);
+  print("Intersection of both sets: $intersectionSet");
+}*/
+
+/*void main(){
+  Set<int> myset = {10,20,30};
+  Set<int> otherset = {20,30,40};
+  print ("First set: $myset");
+  print("other set: $otherset");
+  Set<int> differenceSet = myset.difference(otherset);
+  print("Difference of both sets: $differenceSet");
+}*/
+
+
+/*void main(){
+  Set<String> myset = {'apple', 'banana', 'orange', 'grape'};
+
+  myset.forEach((element){
+    print(element);
+  });
+}*/
+
+/*void main(){
+  Set<String> employeeSet = {'Ali', 'Ahmad', 'Hamza'};
+  List<String> employeeList = employeeSet.toList();
+  Map<String, int> employeeMap = {
+    'Ali': 101,
+    'Ahmad': 102,
+    'Hamza': 103,
+  };
+  print('Original set: $employeeSet');
+  print('Converted List: $employeeList');
+  print('Converted Map: $employeeMap');
+}*/
+
